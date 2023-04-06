@@ -15,9 +15,9 @@ Complete the Category class in budget.py. It should be able to instantiate objec
 
 When the budget object is printed it should display:
 
-    A title line of 30 characters where the name of the category is centered in a line of * characters.
-    A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
-    A line displaying the category total.
+- A title line of 30 characters where the name of the category is centered in a line of * characters.
+- A list of the items in the ledger. Each line should show the description and amount. The first 23 characters of the description should be displayed, then the amount. The amount should be right aligned, contain two decimal places, and display a maximum of 7 characters.
+- A line displaying the category total.
 
 Here is an example of the output:
 
@@ -37,26 +37,27 @@ This function will be tested with up to four categories.
 Look at the example output below very closely and make sure the spacing of the output matches the example exactly.
 
 Percentage spent by category
-100|          
- 90|          
- 80|          
- 70|          
- 60| o        
- 50| o        
- 40| o        
- 30| o        
- 20| o  o     
- 10| o  o  o  
-  0| o  o  o  
-    ----------
-     F  C  A  
-     o  l  u  
-     o  o  t  
-     d  t  o  
-        h     
-        i     
-        n     
-        g     
+
+    100|          
+     90|          
+     80|          
+     70|          
+     60| o        
+     50| o        
+     40| o        
+     30| o        
+     20| o  o     
+     10| o  o  o  
+      0| o  o  o  
+        ----------
+         F  C  A  
+         o  l  u  
+         o  o  t  
+         d  t  o  
+            h     
+            i     
+            n     
+            g     
 
 The unit tests for this project are in test_module.py.
 Development
